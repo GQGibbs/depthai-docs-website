@@ -45,6 +45,7 @@ sudo udevadm control --reload-rules && sudo udevadm trigger
 git clone https://github.com/luxonis/depthai.git
 cd depthai
 python3 -m pip install -r requirements.txt
+cd ..
 ```
 
 Note that the longest part of this process will be updating and upgrading the Pi via `apt`.
